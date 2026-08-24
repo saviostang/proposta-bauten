@@ -108,6 +108,18 @@ h1,h2,h3,h4{font-family:'Montserrat',Arial,sans-serif}
 
 .validity-box{text-align:center;margin-top:28px;font-size:12px;color:rgba(255,255,255,0.4)}
 
+.contract-card{background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);border-radius:24px;padding:44px;max-width:820px;margin:0 auto}
+.contract-head{display:flex;align-items:center;gap:14px;margin-bottom:16px}
+.contract-icon{font-size:26px;line-height:1}
+.contract-title{font-family:'Montserrat',sans-serif;font-size:22px;font-weight:800;color:#FFBEF5}
+.contract-desc{font-size:14px;color:rgba(255,255,255,0.6);margin-bottom:8px;line-height:1.7}
+.contract-rows{border-top:1px solid rgba(255,255,255,0.08);margin-top:28px}
+.contract-row{display:grid;grid-template-columns:170px 1fr;gap:24px;align-items:center;padding:22px 0;border-bottom:1px solid rgba(255,255,255,0.08)}
+.contract-row:last-child{border-bottom:none}
+.contract-tag{display:inline-block;background:rgba(102,96,180,0.25);border:1px solid rgba(102,96,180,0.5);color:#fff;font-family:'Montserrat',sans-serif;font-size:11px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;padding:9px 16px;border-radius:8px;text-align:center;justify-self:start}
+.contract-text{font-size:14px;color:rgba(255,255,255,0.75);line-height:1.65}
+.contract-text strong{color:#fff}
+
 .footer{background:#0a0b18;padding:36px 40px;text-align:center;border-top:1px solid rgba(255,255,255,0.05)}
 .footer-logo{margin-bottom:10px;display:inline-block}
 .footer-text{font-size:12px;color:rgba(255,255,255,0.35)}
@@ -121,6 +133,9 @@ h1,h2,h3,h4{font-family:'Montserrat',Arial,sans-serif}
   .cta-section{padding:56px 20px}
   .roi-inner{padding:0 20px}
   .pc-grid{grid-template-columns:1fr}
+  .contract-card{padding:28px 22px}
+  .contract-row{grid-template-columns:1fr;gap:10px}
+  .contract-tag{justify-self:start}
 }
 </style>
 </head>
@@ -396,6 +411,37 @@ h1,h2,h3,h4{font-family:'Montserrat',Arial,sans-serif}
     <div class="ts"><div class="ts-dot">3</div><div class="ts-title">Alinhamento comercial</div><div class="ts-desc">Reunião de custos e condições — planos e investimento</div></div>
     <div class="ts"><div class="ts-dot">4</div><div class="ts-title">Aprovação &#038; Contrato</div><div class="ts-desc">Decisão de Pablo, Alessandra e Lays e assinatura</div></div>
     <div class="ts"><div class="ts-dot">5</div><div class="ts-title">Implantação</div><div class="ts-desc">Integração com o Sienge e importação da base de fornecedores</div></div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- CONTRATO DE PRODUTIVIDADE -->
+<section class="section">
+  <div class="contract-card">
+    <div class="contract-head">
+      <div class="contract-icon">🤝</div>
+      <div class="contract-title">Contrato de Produtividade</div>
+    </div>
+    <p class="contract-desc">Incluímos essa cláusula porque acreditamos — de verdade — nos resultados que a dgenny® entrega. Se a ferramenta está sendo usada, ela está gerando retorno. E um cliente que cresce com a plataforma não precisa de barreiras para ficar — precisa de resultado para querer continuar. Por isso, quanto mais a Bauten usar a dgenny®, mais flexível é o compromisso contratual.</p>
+    <div class="contract-rows">
+      <div class="contract-row">
+        <span class="contract-tag">Compromisso</span>
+        <p class="contract-text">A Bauten se compromete a utilizar no mínimo <strong>70% das conversas iniciadas do pacote contratado</strong> (12.000/ano no Plano 1.000 ou 6.000/ano no Plano 500) durante os <strong>2 primeiros meses</strong> de contrato.</p>
+      </div>
+      <div class="contract-row">
+        <span class="contract-tag">Benefício</span>
+        <p class="contract-text">Cumprido esse compromisso — uso de no mínimo 70% dos créditos nos 2 primeiros meses — a Bauten pode <strong>cancelar o contrato a partir do 3º mês sem multa nenhuma</strong>.</p>
+      </div>
+      <div class="contract-row">
+        <span class="contract-tag">Condição</span>
+        <p class="contract-text">Caso o uso <strong>não atinja 70%</strong> das conversas iniciadas em qualquer um dos 2 primeiros meses, a multa rescisória permanece válida até o <strong>12º mês</strong> do contrato.</p>
+      </div>
+      <div class="contract-row">
+        <span class="contract-tag">Multa</span>
+        <p class="contract-text"><strong>35% sobre o valor do contrato restante</strong> — calculada sobre os meses que faltam para completar os 12 meses de vigência, aplicável apenas se o compromisso de uso não for cumprido nos 2 primeiros meses.</p>
+      </div>
+    </div>
   </div>
 </section>
 
